@@ -1,0 +1,10 @@
+{
+    "pose_estimation":{
+        "root": "/datanfs/fengd/posegpt_dataset/image2pose_chunk/chunk_6/images",
+        "annotation": "/datanfs/fengd/posegpt_dataset/image2pose_chunk/chunk_6/new_50000_image2pose.json",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 50000
+    }
+ 
+}

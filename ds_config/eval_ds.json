@@ -1,0 +1,26 @@
+{
+    "pose_estimation":{
+        "root": "ds_config/test_dataset/pose_estimation_task/images",
+        "annotation": "ds_config/test_dataset/pose_estimation_task/human36_test.json"
+    },
+    "pose_generation":{
+        "root": " ",
+        "annotation": "ds_config/test_dataset/pose_generation_task/posescript_100_samples.json"
+    },
+    "pose_adjust_human_input_image":{
+        "root": "ds_config/test_dataset/pose_adjustment_task/input_images/images",
+        "annotation": "ds_config/test_dataset/pose_adjustment_task/input_images/posefix_6k_human_test.json"
+    },
+    "pose_adjust_auto_input_image":{
+        "root": "ds_config/test_dataset/pose_adjustment_task/input_images/images",
+        "annotation": "ds_config/test_dataset/pose_adjustment_task/input_images/posefix_135k_auto_test.json"
+    },
+    "pose_adjust_auto_input_smpl":{
+        "root": " ",
+        "annotation": "ds_config/test_dataset/pose_adjustment_task/input_pose/posefix_135k_test.json"
+    },
+    "pose_adjust_posepart_input_smpl":{
+        "root": " ",
+        "annotation": "ds_config/test_dataset/pose_adjustment_task/input_pose/posepart_test.json"
+    }
+}

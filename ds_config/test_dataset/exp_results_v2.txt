@@ -1,0 +1,5 @@
+Evaluating pose_estimation Dataset. MPJPE: 62.592, PA_MPJPE: 45.367
+Evaluating pose_generation Dataset. MPJPE: 163.191, PA_MPJPE: 110.76
+Evaluating pose_adjust_auto_input_image Dataset. MPJPE: 82.597, PA_MPJPE: 59.707
+Evaluating pose_adjust_auto_input_smpl Dataset. MPJPE: 76.231, PA_MPJPE: 53.206
+Evaluating pose_adjust_posepart_input_smpl Dataset. MPJPE: 56.91, PA_MPJPE: 40.37
