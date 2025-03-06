@@ -9,9 +9,11 @@
 
 ### Requirements
 
+
+
 ### Model weights 
 [HF Models](https://huggingface.co/FengD2023/Posellava)
-
+[PosePart Dataset](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link)
 ### PosePart Dataset 
 
 
