@@ -1,5 +1,9 @@
 # PoseLLaVA: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation
 
+<video width="600" controls>
+  <source src="papers/posellava_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Getting Started
 
