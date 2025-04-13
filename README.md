@@ -24,10 +24,16 @@
 ## Citation
 ```bibtex
 @InProceedings{feng2025posellava,
-    author = {Dong Feng, Ping Guo, Encheng Peng, Minmin Zhu, Wenhao Yu, Peng Wang.},
-    title = {{PoseLLaVA}: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation},
-    booktitle = {AAAI},
-    year = {2025}
+    author = {Feng, Dong and Guo, Ping and Peng, Encheng and Zhu, Mingmin and Yu, Wenhao and Wang, Peng},
+    title = {PoseLLaVA: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation},
+    url={https://ojs.aaai.org/index.php/AAAI/article/view/32302}, 
+    DOI={10.1609/aaai.v39i3.32302},
+    journal={Proceedings of the AAAI Conference on Artificial Intelligence},
+    volume={39},
+    number={3}, 
+    year = {2025},
+    month={Apr.},
+    pages={2951-2959},
 }  
 ```
 ## Acknowledgments 
