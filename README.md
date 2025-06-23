@@ -14,21 +14,14 @@
 ## Getting Started
 
 ## 🔥 Model Zoo
-| **Model**     | **chekcpoint** | **status** |
-|---------------|----------------|------------|
-| **PoseLLava** | [HF Models](https://huggingface.co/FengD2023/Posellava)| Released  |
+| **Model**     | **chekcpoint**                                            | **status** |
+|---------------|-----------------------------------------------------------|------------|
+| **PoseLLava** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | Released  |
 
 ## 🔥 Dataset Zoo
 | **Model**                                    | **chekcpoint** | **status** |
 |----------------------------------------------|----------------|------------|
 | **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) | Released  |
-
-
-### Model weights 
-[HF Models](https://huggingface.co/FengD2023/Posellava)
-
-### PosePart Dataset 
-[PosePart Dataset](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link)
 
 ## Training
 (1) 
