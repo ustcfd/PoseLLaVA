@@ -120,7 +120,7 @@ bash shell/run_inference.sh
 ```
 
 ## Demo
-We provide a Streamlit-based web demo (demo video located at `papers/posellava_demo.mp4`). The demo loads the trained model and visually demonstrates its performance. Note that the web demo does not accept SMPL Parameters inputs, as inputing 72 SMPL parameters in the frontend is not practical; however, our VLLM does support this. You can test the SMPL input effect using the evaluation script. To run the demo, use the following command:
+We provide a gradio-based web demo (demo video located at `papers/posellava_demo.mp4`). The demo loads the trained model and visually demonstrates its performance. Note that the web demo does not accept SMPL Parameters inputs, as inputing 72 SMPL parameters in the frontend is not practical; however, our VLLM does support this. You can test the SMPL input effect using the evaluation script. To run the demo, use the following command:
 
 ```bash
 bash shell/posellava_demo.sh
