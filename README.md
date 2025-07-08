@@ -25,10 +25,9 @@
 
 ## Training
 ### Dataset Preparation
-
-
+**We will organize the multimodal datasets for each pose sub-task according to the example below and follow the format for each part of the training dataset. In this format, <image> and <pose> serve as placeholders for two different input modalities: the image and the SMPL parameters.**
 <details>
-<summary>Image Input example for Pose Estimation </summary>
+<summary>Inputing image example for Pose Estimation or Pose Adjustment </summary>
 
 ```json
 [
@@ -39,7 +38,7 @@
     "conversations": [
       {
         "from": "human",
-        "value": "<image> Can you predict the SMPL pose of the person in this image?"
+        "value": "<image> + pose estimation/adjustment instruction"
       },
       {
         "from": "gpt",
@@ -52,7 +51,30 @@
 ```
 
 <details>
-<summary>SMPL Pose Parameters example for Pose Adjustment task </summary>
+<summary>example for Pose Generation task </summary>
+
+```json
+[
+  {
+    "id": "135000",
+    "target_pose": ["Ground truth SMPL parameters.... "],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "There is a person: torso is slightly leaning to the left, right arm is straight forward and hand is pointed down, left arm is down and bent up with the hand in front of chin Please output this person's SMPL pose."
+      },
+      {
+        "from": "gpt",
+        "value": "The SMPL pose of the person is <POSE>."
+      }
+    ]
+  }
+  ...
+]
+```
+
+<details>
+<summary>Inputing SMPL Parameters example for Pose Adjustment task </summary>
 
 ```json
 [
@@ -74,6 +96,7 @@
   ...
 ]
 ```
+
 
 ### Finetune with LoRA
 ```bash
