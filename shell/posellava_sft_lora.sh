@@ -21,7 +21,7 @@ deepspeed mllm/train/train_posellava.py \
     --vision_path ${Pretained_vision_path} \
     --conv_style "llava_v1" \
     --output_dir ${OUTPUT_DIR} \
-    --meta_path "ds_config/test_ds.json" \
+    --meta_path "ds_config/train_ds.json" \
     --overwrite_output_dir False \
     --drop_path_rate 0.0 \
     --freeze_backbone True \

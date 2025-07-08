@@ -106,11 +106,16 @@
 We configure the training datasets for all tasks using a single JSON file `ds_config/train_ds.json`. The `root` specifies the directory of the image files, while SMPLpose is left empty. The `annotation` represents the path to the training files, and `repeat_time` and `length` can be used together to configure the ratio of training data for each part.
 
 ### Finetune with LoRA
+
+Set the parameters in the script `shell/posellava_sft_lora.sh`, where `meta_path` is the path to the training dataset configuration file. To run the training script, use the following command: 
+
 ```bash
 bash shell/posellava_sft_lora.sh
 ```
 
-### Inference
+## Inference
+
+### Evaluation
 ```bash
 bash shell/run_inference.sh
 ```
