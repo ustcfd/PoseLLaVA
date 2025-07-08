@@ -122,6 +122,8 @@ bash shell/run_inference.sh
 ```
 
 ## Streamlit demo
+We provide a Streamlit-based web demo that loads the trained model, offering a visual demonstration of its performance. Note that this demo does not support SMPL parameter input, as entering 72 SMPL parameters through the frontend is impractical. However, our PoseLLaVA does support this, and you can test the SMPL input effect using the evaluation script.
+
 ```bash
 bash shell/posellava_demo.sh
 ```
@@ -141,6 +143,6 @@ bash shell/posellava_demo.sh
 ## Acknowledgments 
 
 The project is based on 
-- [lmms-finetune](https://github.com/zjysteven/lmms-finetune): A minimal codebase for finetuning large multimodal models.
+- [lmms-finetune](https://github.com/zjysteven/lmms-finetune): a minimal codebase for finetuning large multimodal models.
 - [PoseGPT](https://github.com/yfeng95/PoseGPT): a Multi-modal LLM to understand and reason about 3D Human poses.
-- [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT): An amazing open-source project of LMM.
+- [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT): an amazing open-source project of LMM.
