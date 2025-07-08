@@ -11,8 +11,6 @@
   Your browser does not support the video tag.
 </video>
 
-## Getting Started
-
 ## 🔥 Model Zoo
 | **Model**     | **chekcpoint**                                            | **status** |
 |---------------|-----------------------------------------------------------|------------|
