@@ -113,16 +113,15 @@ Set the parameters in the script `shell/posellava_sft_lora.sh`, where `meta_path
 bash shell/posellava_sft_lora.sh
 ```
 
-## Inference
+## Evaluation
 
-### Evaluation
 Similar to the training setup, configure the evaluation datasets for each sub-task in the `ds_config/eval_ds.json` JSON file. In the evaluation script, set the path to the fine-tuned model weights. To run the evaluation script, use the following command: 
 
 ```bash
 bash shell/run_inference.sh
 ```
 
-### Streamlit demo
+## Streamlit demo
 ```bash
 bash shell/posellava_demo.sh
 ```
