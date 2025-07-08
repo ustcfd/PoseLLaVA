@@ -25,7 +25,7 @@
 
 ## Training
 ### Dataset Preparation
-**We will organize the multimodal datasets for each pose sub-task according to the example below and follow the format for each part of the training dataset. In this format, <image> and <pose> serve as placeholders for two different input modalities: the image and the SMPL parameters.**
+**We will organize the multimodal datasets for each pose sub-task according to the example below and follow the format for each part of the training dataset. In this format, `<image>` and `<pose>` serve as placeholders for two different input modalities: the image and the SMPL parameters.**
 <details>
 <summary>Inputing image example for Pose Estimation or Pose Adjustment </summary>
 
