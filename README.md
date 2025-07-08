@@ -142,7 +142,7 @@ bash shell/posellava_demo.sh
 ```
 ## Acknowledgments 
 
-The project is based on 
+This project is inspired by, borrows from, or builds upon the following code and repositories.
 - [lmms-finetune](https://github.com/zjysteven/lmms-finetune): a minimal codebase for finetuning large multimodal models.
 - [PoseGPT](https://github.com/yfeng95/PoseGPT): a Multi-modal LLM to understand and reason about 3D Human poses.
 - [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT): an amazing open-source project of LMM.
