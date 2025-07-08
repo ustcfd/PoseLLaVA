@@ -27,6 +27,54 @@
 ### Dataset Preparation
 
 
+<details>
+<summary>Image Input example for Pose Estimation </summary>
+
+```json
+[
+  {
+    "id": "135000",
+    "image": "S8_WalkDog_1.55011271_000026.jpg",
+    "target_pose": ["Ground truth SMPL parameters.... "],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image> Can you predict the SMPL pose of the person in this image?"
+      },
+      {
+        "from": "gpt",
+        "value": "Sure, it is <POSE>."
+      }
+    ]
+  }
+  ...
+]
+```
+
+<details>
+<summary>SMPL Pose Parameters example for Pose Adjustment task </summary>
+
+```json
+[
+  {
+    "id": "135000",
+    "input_pose": ["Initialized SMPL parameters.... "],
+    "target_pose": ["Ground truth SMPL parameters.... "],
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<pose> Please peruse the description below. Extend your right arm to the right and back while keeping your right upper arm flat, with straight knees and feet shoulder-width apart. Start with the pose and use the textual description to generate the corresponding adjusted SMPL pose."
+      },
+      {
+        "from": "gpt",
+        "value": "The SMPL pose of the person is <POSE>."
+      }
+    ]
+  }
+  ...
+]
+```
+
 ### Finetune with LoRA
 ```bash
 bash shell/posellava_sft_lora.sh
