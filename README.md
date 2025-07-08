@@ -24,7 +24,7 @@
 | **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) | Released  |
 
 ## Training
-(1) kai xin
+(1) kai xin a
 ## Inference
 
 
