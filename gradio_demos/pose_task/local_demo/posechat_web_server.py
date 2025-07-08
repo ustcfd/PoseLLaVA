@@ -232,20 +232,7 @@ def http_bot(state, temperature, top_p, max_new_tokens, request: gr.Request):
 
 
 title_markdown = ("""
-<h1 align="center"><a href="https://github.com/X-PLUG/mPLUG-Owl"><img src="https://z1.ax1x.com/2023/11/03/piM1rGQ.md.png", alt="mPLUG-Owl" border="0" style="margin: 0 auto; height: 200px;" /></a> </h1>
-
-<h2 align="center"> PoseLlava: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation </h2>
-
-<h5 align="center"> If you like our project, please give us a star ✨ on Github for latest update.  </h2>
-
-<div align="center">
-    <div style="display:flex; gap: 0.25rem;" align="center">
-        <a href='https://github.com/X-PLUG/mPLUG-Owl'><img src='https://img.shields.io/badge/Github-Code-blue'></a>
-        <a href="https://arxiv.org/abs/2304.14178"><img src="https://img.shields.io/badge/Arxiv-2304.14178-red"></a>
-        <a href='https://github.com/X-PLUG/mPLUG-Owl/stargazers'><img src='https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social'></a>
-    </div>
-</div>
-
+<h1 align="center"> PoseLlava: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation </h2>
 """)
 
 

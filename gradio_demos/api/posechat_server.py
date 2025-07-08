@@ -188,15 +188,9 @@ class PoseChatAPI(ls.LitAPI):
             yield output
        
 if __name__ == "__main__":
-     
+    host_ip = api_cfg[default_model_id]['ip']
     port_id = api_cfg[default_model_id]['port']
     api = PoseChatAPI()
     server = ls.LitServer(api,stream=True)
-    server.run(port=port_id)
-    '''
-    url = "http://0.0.0.0:8899/predict"
-    resp = requests.post(url, json={"input": "Hello world"}, headers=None, stream=True)
-    for line in resp.iter_content(5000):
-        if line:
-            print(line.decode("utf-8"))
-    '''
+    server.run(host=host_ip,port=port_id)
+    

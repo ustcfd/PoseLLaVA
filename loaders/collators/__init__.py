@@ -9,5 +9,4 @@ def register_collator(name):
     return register_collator_cls
 
 from .img_modal_col import IMGForDataCollator
-from .qwen2vl_col import CustomQwen2VLDataCollator
 from .pose_modal_col import SMPLPOSEForDataCollator
