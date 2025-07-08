@@ -49,6 +49,7 @@
   ...
 ]
 ```
+</details>
 
 <details>
 <summary>example for Pose Generation task </summary>
@@ -72,6 +73,7 @@
   ...
 ]
 ```
+</details>
 
 <details>
 <summary>Inputing SMPL Parameters example for Pose Adjustment task </summary>
@@ -96,7 +98,7 @@
   ...
 ]
 ```
-
+</details>
 
 ### Finetune with LoRA
 ```bash
