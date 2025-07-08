@@ -5,6 +5,13 @@
         "data_augment": false,
         "repeat_time": 1,
         "length": 50000
+    },
+    "pose_part":{
+        "root": "",
+        "annotation": "/datanfs/fengd/posegpt_dataset/posepart.json",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 50000
     }
  
 }
