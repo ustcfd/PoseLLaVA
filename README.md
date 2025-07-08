@@ -127,6 +127,9 @@ bash shell/posellava_demo.sh
 ```
 
 ## Citation
+
+If you find our work useful for your research, please consider citing the paper:
+
 ```bibtex
 @inproceedings{feng2025posellava,
   title={PoseLLaVA: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation},
