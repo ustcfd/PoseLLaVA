@@ -2,8 +2,8 @@
 
 <div align=center>
 
-[![arXiv preprint](http://img.shields.io/badge/arXiv-2412.11634-b31b1b)](https://arxiv.org/abs/2412.11634)
-[![Code](https://img.shields.io/badge/Code-HDR-yellow)](https://github.com/yeungchenwa/HDR)
+[![Paper](https://img.shields.io/badge/Paper-Page-red>)](https://ojs.aaai.org/index.php/AAAI/article/view/32302)
+[![Code](https://img.shields.io/badge/Code-HDR-yellow)](https://github.com/ustcfd/PoseLLaVA)
 </div>
 
 <video width="600" controls>
