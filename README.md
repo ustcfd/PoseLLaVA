@@ -52,7 +52,7 @@
 </details>
 
 <details>
-<summary>Inputing image example for Pose Estimation or Pose Adjustment </summary>
+<summary>Inputing image example for Pose Estimation or Pose Adjustment task</summary>
 
 ```json
 [
