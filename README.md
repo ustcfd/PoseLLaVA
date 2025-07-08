@@ -24,10 +24,23 @@
 | **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) | Released  |
 
 ## Training
-(1) kai xin a
-## Inference
+### Dataset Preparation
 
 
+### Finetune with LoRA
+```bash
+bash shell/posellava_sft_lora.sh
+```
+
+### Inference
+```bash
+bash shell/run_inference.sh
+```
+
+### Streamlit demo
+```bash
+bash shell/posellava_demo.sh
+```
 
 ## Citation
 ```bibtex
@@ -42,3 +55,8 @@
 }
 ```
 ## Acknowledgments 
+
+The project is based on 
+- [lmms-finetune](https://github.com/zjysteven/lmms-finetune): A minimal codebase for finetuning large multimodal models.
+- [PoseGPT](https://github.com/yfeng95/PoseGPT): a Multi-modal LLM to understand and reason about 3D Human poses.
+- [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT): An amazing open-source project of LMM.
