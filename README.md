@@ -10,24 +10,16 @@
   <img src="papers/framework.jpg" alt="PoseLLaVA teaser image showing fine-grained 3D pose manipulation" style="max-width: 100%;">
 </div>
 
-PoseLLaVA is a multimodal framework for fine-grained human pose manipulation using natural language. Unlike previous works limited to coarse actions (e.g., "walking"), PoseLLaVA enables detailed pose control (e.g., "put both hands in front of the stomach") by integrating SMPL-based representations into the LLaVA architecture. It introduces a novel pose encoder-decoder for precise alignment across language, pose, and image modalities. PoseLLaVA supports three core tasks—pose estimation, generation, and adjustment—all guided by rich textual instructions. We also release PosePart, a new dataset with paired poses and fine-grained adjustment prompts, simulating human instructor-style guidance.
+PoseLLaVA is a multimodal framework for fine-grained human pose manipulation using natural language. By integrating SMPL-based pose representations into the LLaVA architecture, PoseLLaVA enables detailed pose control. It achieves precise alignment across language, pose, and image modalities, allowing for seamless multimodal understanding. PoseLLaVA supports pose estimation, generation, and adjustment within a unified framework, all driven by rich textual instructions. We also release PosePart, a new dataset containing paired poses and fine-grained adjustment prompts, simulating the guidance a human instructor might provide.
 
 ## Requirements and Installation
 
 * Python >= 3.10
-* Pytorch == 2.0.1
+* Pytorch == 2.1.0
 * CUDA Version >= 11.7
 * Install required packages:
 ```bash
-git clone https://github.com/PKU-YuanGroup/Video-LLaVA
-cd Video-LLaVA
-conda create -n videollava python=3.10 -y
-conda activate videollava
-pip install --upgrade pip  # enable PEP 660 support
-pip install -e .
-pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
-pip install decord opencv-python git+https://github.com/facebookresearch/pytorchvideo.git@28fe037d212663c6a24f373b94cc5d478c8c1a1d
 ```
 
 ## Model Download
