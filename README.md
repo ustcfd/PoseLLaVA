@@ -20,7 +20,7 @@ PoseLLaVA is a multimodal framework for fine-grained human pose manipulation usi
 * CUDA Version >= 11.7
 * Install required packages:
 ```bash
-pip install flash-attn --no-build-isolation
+pip install -r requirements.txt
 ```
 
 ### Model Download
