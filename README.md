@@ -12,7 +12,8 @@
 
 PoseLLaVA is a multimodal framework for fine-grained human pose manipulation using natural language. By integrating SMPL-based pose representations into the LLaVA architecture, PoseLLaVA enables detailed pose control. It achieves precise alignment across language, pose, and image modalities, allowing for seamless multimodal understanding. PoseLLaVA supports pose estimation, generation, and adjustment within a unified framework, all driven by rich textual instructions. We also release PosePart, a new dataset containing paired poses and fine-grained adjustment prompts, simulating the guidance a human instructor might provide.
 
-## Requirements and Installation
+## Getting Started
+### Requirements and Installation
 
 * Python >= 3.10
 * Pytorch == 2.1.0
@@ -22,12 +23,12 @@ PoseLLaVA is a multimodal framework for fine-grained human pose manipulation usi
 pip install flash-attn --no-build-isolation
 ```
 
-## Model Download
+### Model Download
 | **Model**     | **chekcpoint**                                            | 
 |---------------|-----------------------------------------------------------|
 | **PoseLLava** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | 
 
-## PosePart Dataset 
+### PosePart Dataset 
 | **Model**                                    | **chekcpoint** |
 |----------------------------------------------|----------------|
 | **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) |
