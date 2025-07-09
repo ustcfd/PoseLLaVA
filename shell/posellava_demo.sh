@@ -1,9 +1,7 @@
 #!/bin/bash
 source ~/switch_cuda.sh 11.8
 export PYTHONPATH=`pwd`:$PYTHONPATH
-# model-path：Model的权重路径
-# modify gradio_demos/api/config.py and start server
-python gradio_demos/api/posechat_server.py
+# model-path：Model的权重路径，set model-path
 
 python -m gradio_demos.pose_task.local_demo.posechat_web_server \
     --host 127.0.0.1 \
