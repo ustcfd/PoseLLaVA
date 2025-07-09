@@ -143,7 +143,8 @@ If you find our work useful for your research, please consider citing the paper:
 ```
 ## Acknowledgments 
 
-This project is inspired by, borrows from, or builds upon the following code and repositories.
-- [lmms-finetune](https://github.com/zjysteven/lmms-finetune): a minimal codebase for finetuning large multimodal models.
-- [PoseGPT](https://github.com/yfeng95/PoseGPT): a Multi-modal LLM to understand and reason about 3D Human poses.
-- [LLaVA-NeXT](https://github.com/LLaVA-VL/LLaVA-NeXT): an amazing open-source project of LMM.
+This project built with reference to the code of the following projects:
+- [lmms-finetune](https://github.com/zjysteven/lmms-finetune)
+- [PoseGPT](https://github.com/yfeng95/PoseGPT)
+- [LLaVA](https://github.com/haotian-liu/LLaVA)
+- [InternVL](https://github.com/OpenGVLab/InternVL)
