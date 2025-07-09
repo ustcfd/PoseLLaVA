@@ -142,9 +142,6 @@ If you find our work useful for your research, please consider citing the paper:
 }
 ```
 ## Acknowledgments 
-
-This project built with reference to the code of the following projects:
-- [lmms-finetune](https://github.com/zjysteven/lmms-finetune)
-- [PoseGPT](https://github.com/yfeng95/PoseGPT)
+This project built with reference to the code of the following projects:[lmms-finetune](https://github.com/zjysteven/lmms-finetune), [PoseGPT](https://github.com/yfeng95/PoseGPT)
 - [LLaVA](https://github.com/haotian-liu/LLaVA)
 - [InternVL](https://github.com/OpenGVLab/InternVL)
