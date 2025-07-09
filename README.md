@@ -11,15 +11,15 @@
   Your browser does not support the video tag.
 </video>
 
-## 🔥 Model Zoo
-| **Model**     | **chekcpoint**                                            | **status** |
-|---------------|-----------------------------------------------------------|------------|
-| **PoseLLava** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | Released  |
+## 🔥 Model Download
+| **Model**     | **chekcpoint**                                            | 
+|---------------|-----------------------------------------------------------|
+| **PoseLLava** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | 
 
 ## 🔥 Dataset Zoo
-| **Model**                                    | **chekcpoint** | **status** |
-|----------------------------------------------|----------------|------------|
-| **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) | Released  |
+| **Model**                                    | **chekcpoint** |
+|----------------------------------------------|----------------|
+| **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) |
 
 ## Training
 ### Dataset Preparation
