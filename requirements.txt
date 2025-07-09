@@ -236,3 +236,5 @@ yapf==0.40.2
 yarl==1.9.4
 zhipuai==2.1.4.20230814
 zipp==3.17.0
+hf-mtask-trainer==0.0.2a2
+litserve==0.2.4
