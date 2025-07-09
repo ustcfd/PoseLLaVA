@@ -1,15 +1,15 @@
 # PoseLLaVA: Pose Centric Multimodal LLM for Fine-Grained 3D Pose Manipulation
 
 <div align=center>
-
 [![Paper](https://img.shields.io/badge/Paper-Page-blue>)](https://ojs.aaai.org/index.php/AAAI/article/view/32302)
 [![Code](https://img.shields.io/badge/Code-HDR-yellow)](https://github.com/ustcfd/PoseLLaVA)
 </div>
 
-<video width="600" controls>
-  <source src="papers/posellava_demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div align="center">
+  <img src="papers/framework.jpg" alt="PoseLLaVA teaser image showing fine-grained 3D pose manipulation" style="max-width: 100%;">
+</div>
+
+PoseLLaVA is a multimodal framework for fine-grained human pose manipulation using natural language. Unlike previous works limited to coarse actions (e.g., "walking"), PoseLLaVA enables detailed pose control (e.g., "put both hands in front of the stomach") by integrating SMPL-based representations into the LLaVA architecture. It introduces a novel pose encoder-decoder for precise alignment across language, pose, and image modalities. PoseLLaVA supports three core tasks—pose estimation, generation, and adjustment—all guided by rich textual instructions. We also release PosePart, a new dataset with paired poses and fine-grained adjustment prompts, simulating human instructor-style guidance.
 
 ## Requirements and Installation
 
