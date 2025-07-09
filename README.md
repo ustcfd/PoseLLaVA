@@ -24,12 +24,12 @@ pip install flash-attn --no-build-isolation
 ```
 
 ### Model Download
-| **Model**     | **chekcpoint**                                            | 
+| **Model Descriptions**     | **🤗 HF Link**                                            | 
 |---------------|-----------------------------------------------------------|
 | **PoseLLava** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | 
 
 ### PosePart Dataset 
-| **Model**                                    | **chekcpoint** |
+| **Dataset Descriptions**                                    | **Link** |
 |----------------------------------------------|----------------|
 | **PosePart**                              | [GoogleDrive](https://drive.google.com/drive/folders/1K-k_3LaPaXlTjUWpOvlehAC6Yxqiv9RP?usp=drive_link) |
 
