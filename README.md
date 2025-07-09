@@ -26,7 +26,7 @@ pip install flash-attn --no-build-isolation
 ### Model Download
 | **Model Descriptions**     | **🤗 HF Link**                                            | 
 |---------------|-----------------------------------------------------------|
-| **PoseLLava** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | 
+| **PoseLLaVA** | [Huggingface](https://huggingface.co/FengD2023/Posellava) | 
 
 ### PosePart Dataset 
 | **Dataset Descriptions**                                    | **Link** |
@@ -135,7 +135,7 @@ bash shell/run_inference.sh
 
 We provide a gradio-based web demo (demo video located at `papers/posellava_demo.mp4`). The demo loads the trained model and visually demonstrates its performance. Note that the web demo does not accept SMPL Parameters inputs, as inputing 72 SMPL parameters in the frontend is not practical; however, our VLLM does support this. You can test the SMPL input effect using the evaluation script. 
 ### Launch a model server
-Configure the IP and port in config file（`gradio_demos/api/config.py`）and run the following command.
+Configure the IP and Port in config file（`gradio_demos/api/config.py`）and run the following command.
 ```bash
 python gradio_demos/api/posechat_server.py
 ```
